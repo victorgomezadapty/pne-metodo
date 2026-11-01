@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="es" dir="ltr" data-loc="es-ES">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Educación en neurociencia del dolor · Víctor Andrés Gómez López</title>
+<meta name="description" content="Método, evidencia y aplicación de la educación en neurociencia del dolor, en español y en inglés.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Educación en neurociencia del dolor · Víctor Andrés Gómez López">
+<meta property="og:description" content="Método, evidencia y aplicación de la educación en neurociencia del dolor, en español y en inglés.">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#10141c">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231c2433'/%3E%3Ccircle cx='9' cy='20' r='3' fill='%236aa6ff'/%3E%3Ccircle cx='16' cy='11' r='3' fill='%236aa6ff'/%3E%3Ccircle cx='23' cy='18' r='3' fill='%23e3946a'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:#10141c;color:#e7eef8;font:17px/1.65 'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif;overflow-x:hidden;
+background-image:linear-gradient(#161c28 1px,transparent 1px),linear-gradient(90deg,#161c28 1px,transparent 1px);background-size:48px 48px}
+a{color:#9cc4ff}
+:focus-visible{outline:2px solid #d7e6ff;outline-offset:3px;border-radius:4px}
+.skip{position:absolute;inset-inline-start:-9999px}.skip:focus{inset-inline-start:12px;top:12px;z-index:60;background:#e7eef8;color:#10141c;padding:8px 12px;border-radius:8px}
+.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+.wrap{max-width:1160px;margin:0 auto;padding:0 24px}
+.progress{position:fixed;top:0;left:0;height:2px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:linear-gradient(90deg,#6aa6ff,#e3946a);z-index:40}
+.topbar{position:sticky;top:0;z-index:30;background:rgba(16,20,28,.9);backdrop-filter:blur(12px);border-bottom:1px solid #314056}
+.topbar .wrap{display:flex;align-items:center;gap:18px;height:64px}
+.brand{display:flex;align-items:center;gap:10px;color:#e7eef8;text-decoration:none;font:600 16px 'Space Grotesk',system-ui,sans-serif;white-space:nowrap}
+.brand svg{width:30px;height:30px;flex:none}
+.nav{display:flex;gap:2px;margin-inline-start:auto;overflow-x:auto;min-width:0;flex:1}
+.nav a{color:#a9b6c9;text-decoration:none;font-size:13.5px;padding:6px 8px;border-radius:8px;white-space:nowrap}
+.nav a:hover,.nav a.on{color:#e7eef8;background:#1c2433}
+.lang{display:inline-flex;border:1px solid #41516c;border-radius:9px;overflow:hidden;flex:none}
+.lang a{color:#a9b6c9;font:600 12px 'JetBrains Mono',ui-monospace,Consolas,monospace;padding:7px 10px;text-decoration:none}
+.lang a[aria-current]{background:#e7eef8;color:#10141c}
+.kicker{font:600 12px 'JetBrains Mono',ui-monospace,Consolas,monospace;letter-spacing:2px;text-transform:uppercase;color:#9cc4ff}
+.kicker .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#e3946a;margin-inline-end:8px;box-shadow:0 0 12px #f0b48a;animation:pulse 2s infinite}
+@keyframes pulse{50%{opacity:.35}}
+h1,h2,h3{font-family:'Space Grotesk',system-ui,sans-serif;font-weight:600;letter-spacing:-.02em;line-height:1.12;margin:0}
+h1{font-size:clamp(36px,5.6vw,68px);margin:18px 0 22px}
+h1 .c{color:#e3946a} h1 .y{color:#6aa6ff}
+h2{font-size:clamp(28px,3.6vw,44px);margin:12px 0 16px}
+h3{font-size:21px;margin:28px 0 8px}
+.lead{font-size:clamp(18px,2vw,21px);color:#a9b6c9;max-width:760px}
+.muted{color:#a9b6c9}.small{font-size:14px}.soft{color:#8493a8}
+p{color:#d5deea}
+.num{font:600 12px 'JetBrains Mono',ui-monospace,Consolas,monospace;color:#8493a8;letter-spacing:2px}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 18px;border-radius:10px;font:600 15px 'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif;text-decoration:none;border:1px solid #41516c;color:#e7eef8;background:#1c2433;transition:transform .2s,border-color .2s}
+.btn:hover{transform:translateY(-1px);border-color:#8493a8}
+.btn.primary{background:#e3946a;border-color:#e3946a;color:#2a1408}
+section{padding:84px 0;border-top:1px solid #314056;scroll-margin-top:72px}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.grid-2>*,.grid-3>*,.hero-grid>*,.toc>*,.kpis>*{min-width:0}
+.card{background:#1c2433;border:1px solid #314056;border-radius:18px;padding:26px}
+.card.glow{box-shadow:0 30px 80px -40px rgba(106,166,255,.35)}
+.tag{display:inline-block;font:600 11px 'JetBrains Mono',ui-monospace,Consolas,monospace;letter-spacing:1px;text-transform:uppercase;padding:4px 9px;border-radius:6px;background:#243044;color:#9cc4ff;border:1px solid #41516c}
+.tag.coral{color:#f0b48a}
+.callout{border-inline-start:3px solid #e3946a;background:#1c2433;padding:18px 22px;border-radius:14px;margin:26px 0;color:#a9b6c9}
+.callout strong{color:#e7eef8}
+.callout.cy{border-inline-start-color:#6aa6ff}
+.hero{padding-top:70px;padding-bottom:20px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:36px}
+.kpi{background:#1c2433;border:1px solid #314056;border-radius:14px;padding:18px}
+.kpi b{display:block;font:600 32px/1.1 'JetBrains Mono',ui-monospace,Consolas,monospace;font-variant-numeric:tabular-nums}
+.kpi b.c{color:#e3946a}.kpi b.y{color:#6aa6ff}
+.kpi span{font-size:13px;color:#a9b6c9}
+.toc{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:26px}
+.toc a{display:block;background:#1c2433;border:1px solid #314056;border-radius:16px;padding:18px;text-decoration:none;color:#e7eef8;transition:transform .3s,border-color .3s}
+.toc a:hover{transform:translateY(-4px);border-color:#e3946a}
+.toc .k{font:600 12px 'JetBrains Mono',ui-monospace,Consolas,monospace;color:#f0b48a}
+.toc b{display:block;font:600 17px 'Space Grotesk',system-ui,sans-serif;margin:6px 0}
+.toc span{font-size:13.5px;color:#a9b6c9}
+.table-wrap{overflow-x:auto;border:1px solid #314056;border-radius:14px;background:#1c2433;margin:22px 0}
+table{border-collapse:collapse;width:100%;font-size:14.5px}
+th,td{text-align:start;padding:12px 14px;border-bottom:1px solid #314056;vertical-align:top}
+th{font:600 11px 'JetBrains Mono',ui-monospace,Consolas,monospace;letter-spacing:1px;text-transform:uppercase;color:#8493a8;background:#243044}
+td b{color:#e7eef8}
+tr:last-child td{border-bottom:0}
+ul,ol{color:#d5deea}
+li{margin:6px 0}
+.rules{list-style:none;padding:0;margin:18px 0;display:grid;gap:10px;counter-reset:r}
+.rules li{background:#243044;border:1px solid #314056;border-radius:12px;padding:14px 16px 14px 56px;position:relative;counter-increment:r}
+.rules li::before{content:counter(r,decimal-leading-zero);position:absolute;inset-inline-start:16px;top:14px;font:600 13px 'JetBrains Mono',ui-monospace,Consolas,monospace;color:#f0b48a}
+.rules li small{display:block;color:#8493a8;font-size:12.5px;margin-top:4px}
+ol.refs{padding-inline-start:24px;font-size:14.5px;color:#d5deea}
+ol.refs li{margin-bottom:12px;overflow-wrap:anywhere}
+ol.refs .st{display:inline-block;margin-inline-start:6px;color:#8493a8;font-size:12.5px}
+footer{border-top:1px solid #314056;padding:44px 0 60px;color:#a9b6c9;font-size:14px}
+.disc{border:1px solid #41516c;border-radius:14px;padding:16px 18px;background:#1c2433;color:#e7eef8;margin:24px 0}
+.js .reveal{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.2,1)}
+.js .reveal.in{opacity:1;transform:none}
+.js .reveal.d1{transition-delay:.1s}.js .reveal.d2{transition-delay:.2s}.js .reveal.d3{transition-delay:.3s}.js .reveal.d4{transition-delay:.4s}
+.tabs main section[data-panel]{display:none}
+.tabs main section[data-panel].active{display:block;animation:panel .35s ease}
+@keyframes panel{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.nav a.on{color:#e7eef8;background:#1c2433;box-shadow:inset 0 -2px 0 #e3946a}
+.pager{display:none}
+.tabs .pager{display:flex;flex-wrap:wrap;gap:12px;margin-top:56px;padding-top:24px;border-top:1px solid #314056}
+.pager a{display:inline-flex;align-items:center;min-height:44px;padding:10px 16px;border-radius:10px;border:1px solid #41516c;background:#1c2433;color:#e7eef8;text-decoration:none;font:600 14px 'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif}
+.pager a:hover{border-color:#e3946a}
+.pager .next{margin-inline-start:auto;background:#e3946a;border-color:#e3946a;color:#2a1408}
+.forest{display:grid;gap:12px;margin:18px 0}
+.frow{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(140px,.9fr) minmax(148px,auto);gap:12px;align-items:center}
+.flab b{display:block;font:600 14.5px 'Space Grotesk',system-ui,sans-serif;color:#e7eef8}
+.flab span{display:block;color:#8493a8;font-size:12.5px}
+.ftrack{position:relative;height:32px;background:#243044;border:1px solid #314056;border-radius:8px}
+.fzero{position:absolute;top:3px;bottom:3px;width:1px;background:#8493a8}
+.fwh{position:absolute;top:13px;height:6px;border-radius:3px;background:#6aa6ff}
+.fwh.soft{background:#e3946a}
+.fdot{position:absolute;top:8px;width:16px;height:16px;margin-left:-8px;border-radius:50%;background:#6aa6ff;box-shadow:0 0 0 3px rgba(16,20,28,.85)}
+.fdot.soft{background:#e3946a}
+.fnum{font:600 12.5px/1.35 'JetBrains Mono',ui-monospace,Consolas,monospace;text-align:end;color:#e7eef8}
+.dose-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:18px 0}
+.dose{background:#243044;border:1px solid #314056;border-radius:14px;padding:16px}
+.dose b{display:block;font:600 12px 'JetBrains Mono',ui-monospace,Consolas,monospace;color:#9cc4ff;letter-spacing:.04em;text-transform:uppercase}
+.dose .big{display:block;font:600 26px 'JetBrains Mono',ui-monospace,Consolas,monospace;color:#f0b48a;margin:6px 0}
+.dose p{margin:0;font-size:14px}
+.dose .src{display:block;margin-top:8px;color:#8493a8;font-size:12.5px}
+.ladder{position:relative;height:78px;margin:28px 8px 8px}
+.ladder-line{position:absolute;left:0;right:0;top:14px;height:3px;border-radius:2px;background:linear-gradient(90deg,#41516c,#6aa6ff,#e3946a)}
+.mark{position:absolute;top:6px;transform:translateX(-50%);font:600 12px 'JetBrains Mono',ui-monospace,Consolas,monospace;color:#e7eef8;text-align:center;white-space:nowrap}
+.mark i{display:block;width:14px;height:14px;border-radius:50%;background:#10141c;border:3px solid #6aa6ff;margin:0 auto 8px}
+.filters{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:18px 0}
+.filters input{background:#1c2433;color:#e7eef8;border:1px solid #41516c;border-radius:10px;padding:10px 12px;font:16px 'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif;min-width:min(100%,280px)}
+.filter-pills{display:flex;flex-wrap:wrap;gap:8px}
+.filter-pills button{background:#1c2433;color:#e7eef8;border:1px solid #41516c;border-radius:999px;padding:8px 12px;font:600 13px 'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif;cursor:pointer}
+.filter-pills button[aria-pressed=true]{background:#e7eef8;color:#10141c;border-color:#e7eef8}
+code{font-family:'JetBrains Mono',ui-monospace,Consolas,monospace;font-size:.92em;color:#9cc4ff}
+.cols{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 16px}
+.cols code{background:#243044;border:1px solid #314056;border-radius:6px;padding:3px 6px}
+.pick{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:28px 0}
+.pick a{text-decoration:none;color:#e7eef8}
+.pick a:hover{border-color:#e3946a}
+@media (max-width:1180px){
+.topbar .wrap{height:auto;min-height:58px;flex-wrap:wrap;padding-top:8px;padding-bottom:8px;gap:8px}
+.nav{order:3;flex:none;width:100%;margin-inline-start:0}
+.lang{margin-inline-start:auto}}
+@media (max-width:980px){.grid-2,.frow,.dose-grid{grid-template-columns:1fr 1fr}.kpis{grid-template-columns:1fr 1fr}.toc{grid-template-columns:1fr 1fr}.grid-3{grid-template-columns:1fr 1fr}.frow{grid-template-columns:1fr}.fnum{text-align:start}}
+@media (max-width:720px){body{font-size:16px}.wrap{padding:0 16px}
+.topbar .wrap{height:auto;min-height:58px;flex-wrap:wrap;padding-top:8px;padding-bottom:8px;gap:8px}
+.nav{order:3;width:100%;margin-inline-start:0}.lang{margin-inline-start:auto}
+section{padding:56px 0}.kpis,.toc,.grid-3,.dose-grid,.pick,.grid-2{grid-template-columns:1fr}.card{padding:20px}
+.ladder{height:auto}.ladder-line{display:none}.mark{position:static;transform:none;display:inline-block;margin:0 10px 8px 0}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}
+.js .reveal,.toc a,.btn{transition:none!important;transform:none!important;opacity:1!important}
+.kicker .dot{animation:none}.tabs main section[data-panel].active{animation:none}}
+@media print{.topbar,.progress,.cta,.pager,.filters{display:none}body{background:#fff;color:#000}
+.tabs main section[data-panel]{display:block!important}.js .reveal{opacity:1!important;transform:none!important}}
+</style>
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
+<header class="topbar">
+ <div class="wrap">
+  <a class="brand" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#1c2433" stroke="#41516c"/><circle cx="9" cy="20" r="3" fill="#6aa6ff"/><circle cx="16" cy="11" r="3" fill="#6aa6ff"/><circle cx="23" cy="18" r="3" fill="#e3946a"/></svg>PNE · Método</a>
+  <nav class="nav" aria-label="Idioma / Language"><a href="pne-es.html" hreflang="es" lang="es">Español</a><a href="pne-en.html" hreflang="en" lang="en">English</a></nav>
+ </div>
+</header>
+<main id="main">
+<div class="wrap hero" id="top">
+ <div class="kicker"><span class="dot"></span>Fisioterapia deportiva · método</div>
+ <h1>Educación en neurociencia del dolor.<br><span class="y">El método, la evidencia y la aplicación.</span></h1>
+ <p class="lead">Qué es la PNE, cómo funciona, cuántos minutos se asocian con superar la diferencia mínima clínicamente importante, y qué cambia cuando el comparador es ejercicio o es otra educación activa.</p>
+ <div class="pick">
+  <a class="card reveal" href="pne-es.html" hreflang="es"><span class="tag">ES</span><h3>Español</h3><p>Método, dosis, evidencia y guías. Arabia Saudí queda como anexo.</p></a>
+  <a class="card reveal d1" href="pne-en.html" hreflang="en" lang="en"><span class="tag">EN</span><h3>English</h3><p>Method, dose, evidence and guidelines. Saudi Arabia is an annex.</p></a>
+ </div>
+</div>
+</main>
+<footer><div class="wrap"><p>Víctor Andrés Gómez López, fisioterapeuta deportivo. Actualizado el 1 de noviembre de 2026.</p><p class="small soft">Información educativa a partir de fuentes publicadas. No es consejo médico. Texto: CC BY 4.0. Código: MIT.</p></div></footer>
+<script>
+document.documentElement.classList.add('js');
+(function(){
+var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+var loc=document.documentElement.dataset.loc||'en-US';
+var bar=document.querySelector('.progress');
+function onScroll(){var h=document.documentElement;var k=h.scrollTop/Math.max(1,h.scrollHeight-h.clientHeight);if(bar)bar.style.transform='scaleX('+k+')';}
+addEventListener('scroll',onScroll,{passive:true});onScroll();
+function fmt(n,v){var d=+(n.dataset.dec||0);return v.toLocaleString(loc,{minimumFractionDigits:d,maximumFractionDigits:d})+(n.dataset.suf||'');}
+function countUp(n){var to=parseFloat(n.dataset.count);if(reduce){n.textContent=fmt(n,to);return;}var t0=performance.now();
+function st(t){var k=Math.min(1,(t-t0)/1400);n.textContent=fmt(n,to*(1-Math.pow(1-k,3)));if(k<1)requestAnimationFrame(st);}requestAnimationFrame(st);}
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;var t=e.target;t.classList.add('in');if(t.dataset.count)countUp(t);io.unobserve(t);});},{threshold:0.2,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.reveal,[data-count]').forEach(function(n){io.observe(n);});
+var panels=[].slice.call(document.querySelectorAll('main section[id]'));
+var navLinks=[].slice.call(document.querySelectorAll('.nav a[href^="#"]'));
+if(panels.length>1){
+document.documentElement.classList.add('tabs');
+function label(id){var a=document.querySelector('.nav a[href="#'+id+'"]');return a?a.textContent.trim():id;}
+panels.forEach(function(p,i){p.setAttribute('data-panel','');
+var f=document.createElement('nav');f.className='pager';f.setAttribute('aria-label',label(p.id));
+if(i>0){var a=document.createElement('a');a.href='#'+panels[i-1].id;a.className='prev';a.textContent='\u2190 '+label(panels[i-1].id);f.appendChild(a);}
+if(i<panels.length-1){var b=document.createElement('a');b.href='#'+panels[i+1].id;b.className='next';b.textContent=label(panels[i+1].id)+' \u2192';f.appendChild(b);}
+(p.querySelector('.wrap')||p).appendChild(f);});
+function show(id,target,url){panels.forEach(function(p){p.classList.toggle('active',p.id===id);});
+navLinks.forEach(function(l){var on=l.getAttribute('href')==='#'+id;l.classList.toggle('on',on);if(on)l.setAttribute('aria-current','true');else l.removeAttribute('aria-current');});
+if(url&&history.replaceState)history.replaceState(null,'','#'+id);
+if(target)target.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});}
+document.addEventListener('click',function(e){var a=e.target.closest('a[href^="#"]');if(!a)return;var id=a.getAttribute('href').slice(1);var t=id&&document.getElementById(id);var p=t&&t.closest('section[data-panel]');if(!p)return;e.preventDefault();show(p.id,t,true);});
+var h=decodeURIComponent(location.hash.slice(1)),ht=h&&document.getElementById(h),hp=ht&&ht.closest('section[data-panel]');
+show(hp?hp.id:panels[0].id,null,false);if(hp)setTimeout(function(){ht.scrollIntoView({block:'start'});},60);
+}
+var q=document.getElementById('q');
+var pills=[].slice.call(document.querySelectorAll('.filter-pills button'));
+var items=[].slice.call(document.querySelectorAll('ol.refs li'));
+var count=document.getElementById('src-count');
+if(q&&items.length){
+var st='all';
+function apply(){
+var s=(q.value||'').trim().toLowerCase();
+var n=0;
+items.forEach(function(li){
+var okSt=st==='all'||li.getAttribute('data-st')===st;
+var okQ=!s||li.textContent.toLowerCase().indexOf(s)>=0;
+var show=okSt&&okQ;
+li.hidden=!show;
+if(show)n++;
+});
+if(count)count.textContent=n+' '+(count.getAttribute('data-label')||'');
+}
+q.addEventListener('input',apply);
+pills.forEach(function(btn){btn.addEventListener('click',function(){
+st=btn.getAttribute('data-st');
+pills.forEach(function(b){b.setAttribute('aria-pressed',b===btn?'true':'false');});
+apply();
+});});
+}
+})();
+</script>
+</body>
+</html>

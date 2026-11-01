@@ -1,0 +1,43 @@
+chart_ref,source,doi,comparison,outcome,timepoint,scale,metric,estimate,ci_low,ci_high,p_as_reported,k_studies,n_participants,certainty,sign_convention,source_location
+1,Wood 2019,10.1002/ejp.1314,PNE vs no PNE,pain,short term,0 to 10,MD,0.73,-0.14,1.61,,8 RCTs (review),615 (review),low,positive favours PNE,abstract
+1,Wood 2019,10.1002/ejp.1314,PNE with physiotherapy,pain,short term,0 to 10,MD,1.32,1.08,1.56,,,,moderate,positive favours PNE,abstract
+1,Ma 2024,10.1080/09593985.2023.2232003,PNE plus exercise vs exercise,pain,,0 to 10,MD,-1.14,-1.55,-0.72,,17 RCTs (review),1078 (review),not stated in abstract,negative favours PNE,abstract
+1,Ma 2024,10.1080/09593985.2023.2232003,PNE plus physiotherapy vs physiotherapy,pain,,0 to 10,MD,-1.15,-1.67,-0.64,,,,not stated in abstract,negative favours PNE,abstract
+1,Cancela 2025,10.1016/j.rehab.2025.102020,PNE plus exercise (umbrella review),pain,,0 to 10,MD,-1.11,-1.57,-0.66,,19 SRs,5200,not stated in abstract,negative favours PNE,abstract
+1,Siddall 2022,10.1097/j.pain.0000000000002308,PNE plus exercise vs exercise,pain,,0 to 10,MD,-2.09,-3.38,-0.8,,5 RCTs,460,low,negative favours PNE,abstract
+2,Nunez-Cortes 2024,10.1097/j.pain.0000000000003126,150 min PNE added to exercise,disability,,as reported,estimate,-6.84,-7.98,-5.7,,,,,negative favours PNE,abstract
+2,Nunez-Cortes 2024,10.1097/j.pain.0000000000003126,200 min PNE added to exercise,pain,,as reported,estimate,-2.61,-3.12,-2.1,,,,,negative favours PNE,abstract
+2,Salazar-Mendez 2023,10.1016/j.neubiorev.2023.105328,100 min PNE,kinesiophobia,,as reported,MD,-8.53,,,,,,,negative favours PNE,abstract
+2,Salazar-Mendez 2023,10.1016/j.neubiorev.2023.105328,200 min PNE,anxiety,,as reported,MD,-1.88,,,,,,,negative favours PNE,abstract
+2,Salazar-Mendez 2023,10.1016/j.neubiorev.2023.105328,400 min PNE,catastrophising,,as reported,MD,-7.17,,,,,,,negative favours PNE,abstract
+2,Ma 2024,10.1080/09593985.2023.2232003,subgroup: single session over 60 min,pain,,0 to 10,MD,-2.04,,,,,,,negative favours PNE,abstract
+2,Ma 2024,10.1080/09593985.2023.2232003,subgroup: group format,pain,,0 to 10,MD,-1.76,,,,,,,negative favours PNE,abstract
+2,Ma 2024,10.1080/09593985.2023.2232003,subgroup: 4 to 8 sessions,pain,,0 to 10,MD,-1.34,,,,,,,negative favours PNE,abstract
+2,Ma 2024,10.1080/09593985.2023.2232003,subgroup: 7 to 12 weeks,pain,,0 to 10,MD,-1.32,,,,,,,negative favours PNE,abstract
+3,Siddall 2022,10.1097/j.pain.0000000000002308,PNE plus exercise vs exercise,disability,,,SMD,-0.68,-1.17,-0.2,,5 RCTs,460,low,negative favours PNE,abstract
+3,Siddall 2022,10.1097/j.pain.0000000000002308,PNE plus exercise vs exercise,kinesiophobia,,,SMD,-1.2,-1.84,-0.57,,5 RCTs,460,moderate,negative favours PNE,abstract
+3,Medina-Viedma 2025,10.3390/medsci13040290,PNE vs physiotherapy or no intervention,pain,end of intervention,,SMD,-0.65,,,0.005,15 RCTs,810,,negative favours PNE,abstract
+3,Medina-Viedma 2025,10.3390/medsci13040290,PNE vs physiotherapy or no intervention,disability,end of intervention,,SMD,-0.6,,,0.009,15 RCTs,810,,negative favours PNE,abstract
+3,Medina-Viedma 2025,10.3390/medsci13040290,PNE vs physiotherapy or no intervention,kinesiophobia,end of intervention,,SMD,-1.12,,,< 0.001,15 RCTs,810,,negative favours PNE,abstract
+3,Medina-Viedma 2025,10.3390/medsci13040290,PNE vs physiotherapy or no intervention,catastrophising,end of intervention,,SMD,-0.9,,,0.016,15 RCTs,810,,negative favours PNE,abstract
+3,Khan 2026,10.1097/ajp.0000000000001398,PNE in general,pain,,,SMD,-0.27,-0.5,0.0,,12 RCTs,1485,,negative favours PNE,abstract
+3,Cancela 2025,10.1016/j.rehab.2025.102020,PNE plus exercise (umbrella review),disability,,,SMD,-0.42,-1.09,0.24,,19 SRs,5200,,negative favours PNE,abstract
+3,Watson 2019,10.1016/j.jpain.2019.02.011,PNE vs comparators,pain,short term,0 to 100,MD,-5.91,-13.75,1.93,,12 RCTs,755,,negative favours PNE,abstract
+3,Watson 2019,10.1016/j.jpain.2019.02.011,PNE vs comparators,disability,short term,0 to 100,MD,-4.09,-7.72,-0.45,,12 RCTs,755,,negative favours PNE,abstract
+3,Watson 2019,10.1016/j.jpain.2019.02.011,PNE vs comparators,kinesiophobia,short term,0 to 100,MD,-13.55,-25.89,-1.21,,12 RCTs,755,,negative favours PNE,abstract
+4,Cashin 2023,10.1097/j.pain.0000000000002978,mediated effect: beliefs about back pain consequences,pain,,,indirect effect,-0.96,-1.47,-0.64,,RESOLVE,276,,negative = mediated benefit,abstract
+4,Cashin 2023,10.1097/j.pain.0000000000002978,mediated effect: beliefs about back pain consequences,disability,,,indirect effect,-1.66,-2.62,-0.87,,RESOLVE,276,,negative = mediated benefit,abstract
+4,Cashin 2023,10.1097/j.pain.0000000000002978,mediated effect: catastrophising,pain,,,indirect effect,-0.49,-0.61,-0.24,,RESOLVE,276,,negative = mediated benefit,abstract
+4,Cashin 2023,10.1097/j.pain.0000000000002978,mediated effect: catastrophising,disability,,,indirect effect,-1.06,-1.79,-0.53,,RESOLVE,276,,negative = mediated benefit,abstract
+4,Cashin 2023,10.1097/j.pain.0000000000002978,mediated effect: pain self efficacy,pain,,,indirect effect,-0.37,-0.66,-0.22,,RESOLVE,276,,negative = mediated benefit,abstract
+4,Cashin 2023,10.1097/j.pain.0000000000002978,mediated effect: pain self efficacy,disability,,,indirect effect,-0.84,-1.89,-0.45,,RESOLVE,276,,negative = mediated benefit,abstract
+4,Ram 2023,10.1097/ajp.0000000000001086,knowledge change vs outcome,pain,short term,,r,-0.01,-0.14,0.13,,14 studies,about 1500,,correlation,abstract
+4,Ram 2023,10.1097/ajp.0000000000001086,knowledge change vs outcome,kinesiophobia,short term,,r,0.02,,,,14 studies,about 1500,,correlation,abstract
+4,Ram 2023,10.1097/ajp.0000000000001086,knowledge change vs outcome,catastrophising,short term,,r,-0.03,,,,14 studies,about 1500,,correlation,abstract
+8,Aldera 2026,10.3390/jcm15020528,PNE vs no PNE,disability,32.8 days,RMDQ,MD,2.28,0.3,4.25,,,,moderate,positive favours PNE,full text Table 22 (PMC12842004)
+8,Aldera 2026,10.3390/jcm15020528,PNE vs no PNE,pain,short term,NRS,MD,0.73,-0.14,1.61,,,,low,positive favours PNE,full text Table 22 (PMC12842004)
+8,Aldera 2026,10.3390/jcm15020528,PNE vs no PNE,pain,12 months,NRS,MD,0.44,-1.03,1.91,,,,low,positive favours PNE,full text Table 22 (PMC12842004)
+8,Aldera 2026,10.3390/jcm15020528,PNE vs no PNE,kinesiophobia,3.3 weeks,TSK,MD,4.72,2.32,7.13,,,,low (labelled little or no effect although CI excludes 0),positive favours PNE,full text Table 22 (PMC12842004)
+8,Aldera 2026,10.3390/jcm15020528,PNE vs no PNE,disability,12 months,RMDQ,MD,2.18,-0.67,5.02,,,,low,positive favours PNE,full text Table 22 (PMC12842004)
+8,Aldera 2026,10.3390/jcm15020528,PNE plus physiotherapy,disability,40 days,RMDQ,MD,3.94,3.37,4.52,,,,moderate,positive favours PNE,full text Table 22 (PMC12842004)
+8,Aldera 2026,10.3390/jcm15020528,PNE plus physiotherapy,pain,32.6 days,NRS,MD,1.32,1.08,1.56,,,,moderate,positive favours PNE,full text Table 22 (PMC12842004)

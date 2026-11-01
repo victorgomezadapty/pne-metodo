@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="{{lang}}" dir="{{dir}}" data-loc="{{loc}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{desc}}">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{desc}}">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#10141c">
+<link rel="alternate" hreflang="es" href="pne-es.html">
+<link rel="alternate" hreflang="en" href="pne-en.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231c2433'/%3E%3Ccircle cx='9' cy='20' r='3' fill='%236aa6ff'/%3E%3Ccircle cx='16' cy='11' r='3' fill='%236aa6ff'/%3E%3Ccircle cx='23' cy='18' r='3' fill='%23e3946a'/%3E%3Cpath d='M11.6 18.2 L14.2 13.4 M17.8 12.4 L21.2 16.4' stroke='%239cc4ff' stroke-width='1.5' fill='none'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>{{css}}</style>
+</head>
+<body>
+<a class="skip" href="#main">{{skip}}</a>
+<div class="progress" aria-hidden="true"></div>
+<header class="topbar">
+ <div class="wrap">
+  <a class="brand" href="#top"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#1c2433" stroke="#41516c"/><circle cx="9" cy="20" r="3" fill="#6aa6ff"/><circle cx="16" cy="11" r="3" fill="#6aa6ff"/><circle cx="23" cy="18" r="3" fill="#e3946a"/><path d="M11.6 18.2 L14.2 13.4 M17.8 12.4 L21.2 16.4" stroke="#9cc4ff" stroke-width="1.5" fill="none"/></svg>{{brand}}</a>
+  <nav class="nav" aria-label="{{navlabel}}">
+   <a href="#what">01 {{n1}}</a>
+   <a href="#how">02 {{n2}}</a>
+   <a href="#dose">03 {{n3}}</a>
+   <a href="#clinic">04 {{n4}}</a>
+   <a href="#evidence">05 {{n5}}</a>
+   <a href="#new">06 {{n6}}</a>
+   <a href="#guides">07 {{n7}}</a>
+   <a href="#saudi">08 {{n8}}</a>
+   <a href="#data">09 {{n9}}</a>
+   <a href="#sources">10 {{n10}}</a>
+  </nav>
+  <div class="lang" role="group" aria-label="Idioma / Language">
+   <a href="pne-es.html" hreflang="es" lang="es" {{cur_es}}>ES</a>
+   <a href="pne-en.html" hreflang="en" lang="en" {{cur_en}}>EN</a>
+  </div>
+ </div>
+</header>
+<main id="main">
+<div class="wrap hero" id="top">
+ <div class="kicker"><span class="dot"></span>{{kicker}}</div>
+ <h1>{{h1a}}<br><span class="y">{{h1b}}</span><br><span class="c">{{h1c}}</span></h1>
+ <p class="lead">{{lead}}</p>
+ <div class="cta">
+  <a class="btn primary" href="#what">{{cta1}}</a>
+  <a class="btn" href="#dose">{{cta2}}</a>
+ </div>
+ <div class="kpis">
+  <div class="kpi reveal"><b data-count="200">200</b><span>{{k1}}</span></div>
+  <div class="kpi reveal d1"><b data-count="150">150</b><span>{{k2}}</span></div>
+  <div class="kpi reveal d2"><b class="c">{{k3v}}</b><span>{{k3}}</span></div>
+  <div class="kpi reveal d3"><b class="y" data-count="91">91</b><span>{{k4}}</span></div>
+ </div>
+ <p class="small soft">{{kpi_note}}</p>
+ <div id="index" style="margin-top:48px">
+  <div class="num">00 / {{idx_t}}</div>
+  <nav class="toc" aria-label="{{idx_t}}">
+   <a href="#what"><span class="k">01</span><b>{{n1}}</b><span>{{i1}}</span></a>
+   <a href="#how"><span class="k">02</span><b>{{n2}}</b><span>{{i2}}</span></a>
+   <a href="#dose"><span class="k">03</span><b>{{n3}}</b><span>{{i3}}</span></a>
+   <a href="#clinic"><span class="k">04</span><b>{{n4}}</b><span>{{i4}}</span></a>
+   <a href="#evidence"><span class="k">05</span><b>{{n5}}</b><span>{{i5}}</span></a>
+   <a href="#new"><span class="k">06</span><b>{{n6}}</b><span>{{i6}}</span></a>
+   <a href="#guides"><span class="k">07</span><b>{{n7}}</b><span>{{i7}}</span></a>
+   <a href="#saudi"><span class="k">08</span><b>{{n8}}</b><span>{{i8}}</span></a>
+   <a href="#data"><span class="k">09</span><b>{{n9}}</b><span>{{i9}}</span></a>
+   <a href="#sources"><span class="k">10</span><b>{{n10}}</b><span>{{i10}}</span></a>
+  </nav>
+ </div>
+</div>
+
+<section id="what"><div class="wrap"><div class="num">01 / {{s1_num}}</div><h2>{{s1_h}}</h2>{{sec_what}}</div></section>
+<section id="how"><div class="wrap"><div class="num">02 / {{s2_num}}</div><h2>{{s2_h}}</h2>{{sec_how}}</div></section>
+<section id="dose"><div class="wrap"><div class="num">03 / {{s3_num}}</div><h2>{{s3_h}}</h2>{{sec_dose}}</div></section>
+<section id="clinic"><div class="wrap"><div class="num">04 / {{s4_num}}</div><h2>{{s4_h}}</h2>{{sec_clinic}}</div></section>
+<section id="evidence"><div class="wrap"><div class="num">05 / {{s5_num}}</div><h2>{{s5_h}}</h2>{{sec_evidence}}</div></section>
+<section id="new"><div class="wrap"><div class="num">06 / {{s6_num}}</div><h2>{{s6_h}}</h2>{{sec_new}}</div></section>
+<section id="guides"><div class="wrap"><div class="num">07 / {{s7_num}}</div><h2>{{s7_h}}</h2>{{sec_guides}}</div></section>
+<section id="saudi"><div class="wrap"><div class="num">08 / {{s8_num}}</div><h2>{{s8_h}}</h2>{{sec_saudi}}</div></section>
+<section id="data"><div class="wrap"><div class="num">09 / {{s9_num}}</div><h2>{{s9_h}}</h2>{{sec_data}}</div></section>
+<section id="sources"><div class="wrap">
+ <div class="num">10 / {{s10_num}}</div>
+ <h2>{{s10_h}}</h2>
+ {{sec_sources}}
+ <div class="filters">
+  <label>{{src_filter}} <input id="q" type="search" placeholder="{{src_filter}}"></label>
+  <div class="filter-pills" role="group" aria-label="{{src_filter}}">
+   <button type="button" data-st="all" aria-pressed="true">{{src_all}}</button>
+   <button type="button" data-st="full" aria-pressed="false">{{src_full}}</button>
+   <button type="button" data-st="open_abs" aria-pressed="false">{{src_oabs}}</button>
+   <button type="button" data-st="abstract" aria-pressed="false">{{src_abs}}</button>
+  </div>
+ </div>
+ <p class="small soft" id="src-count" data-label="{{src_count_label}}">91 {{src_count_label}}</p>
+ <ol class="refs" dir="ltr" lang="en">{{refs}}</ol>
+</div></section>
+</main>
+<footer>
+ <div class="wrap">
+  <div class="disc"><strong>{{disc_h}}</strong> {{disc_p}}</div>
+  <p>{{foot}}</p>
+ </div>
+</footer>
+<script>{{js}}</script>
+</body>
+</html>

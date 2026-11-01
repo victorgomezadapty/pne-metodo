@@ -1,0 +1,22 @@
+report_id,outcome_domain,instrument,timepoint,metric,estimate,ci_low,ci_high,p_as_reported,sign_convention,source_location
+traeger2019_prevent,pain,NRS 0 to 10,3 months,MD,-0.3,-1.0,0.3,,negative favours PNE,abstract
+traeger2019_prevent,disability,RMDQ 0 to 24,1 week,MD,-1.6,-3.1,-0.1,,negative favours PNE,abstract
+traeger2019_prevent,disability,RMDQ 0 to 24,3 months,MD,-1.7,-3.2,-0.2,,negative favours PNE,abstract
+huysmans2023_bja,kinesiophobia,TSK,12 months,additional decrease,3.15,0.25,6.04,,positive favours PNE,abstract
+huysmans2023_bja,catastrophising,PCS,12 months,additional decrease,6.18,1.97,10.39,,positive favours PNE,abstract
+dams2023_pain,disability,Pain Disability Index 0 to 70,12 months,difference in change,-1.31,-5.28,2.65,0.516,negative = smaller improvement with PNE (PNE change 4.22 vs 5.53),abstract
+larsen2024_jamanetwopen,pain_and_function,KOOS4 0 to 100,12 months,MD in change,-1.33,-7.59,4.92,.68,negative favours experimental (exercise + PNE); PNE in both arms,abstract
+baas2024_actaorthop,pain,WOMAC pain,3 months,difference,0.4,-1.7,2.4,,direction not stated in abstract,abstract
+adenis2024_msksp,disability,functional disability,day 90,MD,-1.7,-4.0,0.5,0.12,negative favours PNE,abstract
+adenis2026_ptp,disability,RMDQ,12 months,MD,-1.04,-3.14,1.06,.33,negative favours PNE,abstract
+adenis2026_ptp,kinesiophobia,TSK-17,12 months,MD,-3.97,-7.36,-0.58,.022,negative favours PNE,abstract
+malfliet2025_jamanetwopen,disability,NDI,post treatment,MGD,3.55,1.12,6.26,.006,positive favours PNE,abstract
+malfliet2025_jamanetwopen,disability,NDI,6 months,MGD,2.38,-0.12,4.89,.15,positive favours PNE,abstract
+malfliet2025_jamanetwopen,disability,NDI,12 months,MGD,3.54,0.81,6.28,.02,positive favours PNE,abstract
+sidiq2024_plosone,disability,RMDQ,6 weeks,MD,8.2,,,< 0.001,positive favours PNE (reduction),abstract
+sidiq2024_plosone,pain,NPRS,6 weeks,MD,3.5,,,< 0.001,positive favours PNE (reduction),abstract
+garcialucas2026_painmed,pain,pain intensity,post intervention,MD,-0.5,-1.0,0.0,.05,negative favours PNE,abstract
+garcialucas2026_painmed,kinesiophobia,kinesiophobia,post intervention,MD,-1.4,-2.3,-0.4,.005,negative favours PNE,abstract
+maguire2019_jsr,knowledge,rNPQ,post education,MD,3.2,2.1,4.3,< .01,positive favours PNE,abstract
+muhsen2026_bmcmeded,knowledge,RNPQ,post lecture,adjusted MD,2.46,1.68,3.24,< 0.001 (interaction),positive favours PNE,abstract
+muhsen2026_bmcmeded,knowledge,RNPQ,6 months,adjusted MD,1.2,0.25,2.15,0.020,positive favours PNE,abstract
