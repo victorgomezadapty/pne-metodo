@@ -202,8 +202,8 @@ def saudi():
 def data():
     prim = F["primary"]
     return """
-<p class="lead">El conjunto de datos de Kaggle todavía no está publicado. <strong>Kaggle dataset coming soon</strong>. Esta página no enlaza una URL de Kaggle.</p>
-<p>Lo que sí está en este repositorio es una extracción derivada, preparada para esa publicación. Son cifras ya publicadas, citadas, en tres CSV. No son datos individuales de pacientes. No copian textos ni figuras de terceros. La licencia de estas tablas es CC BY 4.0. El código del generador es MIT.</p>
+<p class="lead">La publicación en Kaggle ya es pública. Dataset: <a href="https://www.kaggle.com/datasets/vctorandrsgmezlpez/pne-trials-evidence-extraction">PNE Trials Evidence Extraction</a> (CC BY 4.0). Notebook: <a href="https://www.kaggle.com/code/vctorandrsgmezlpez/pne-trials-open-data-review">PNE Trials Open Data Review</a>, que descarga el archivo de O'Keeffe desde Zenodo al ejecutarse y no lo redistribuye.</p>
+<p>La misma extracción derivada está en este repositorio. Son cifras ya publicadas, citadas, en tres CSV. No son datos individuales de pacientes. No copian textos ni figuras de terceros. La licencia de estas tablas es CC BY 4.0. El código del generador es MIT.</p>
 <div class="grid-3">
  <div class="card"><span class="tag">23 filas</span><h3>Ensayos</h3><p><a href="data/pne_trials_extraction.csv">pne_trials_extraction.csv</a>. 39 columnas. Una fila por informe. Población registrada en el archivo: 20 pacientes, 2 estudiantes y 1 grupo de deportistas.</p></div>
  <div class="card"><span class="tag">21 filas</span><h3>Efectos</h3><p><a href="data/pne_trial_effects_long.csv">pne_trial_effects_long.csv</a>. 11 columnas. Formato largo: una fila por informe, resultado y momento, cuando el resumen traía un número.</p></div>
@@ -259,7 +259,7 @@ i5="Añadida al ejercicio, y frente a educación activa.",
 i6="Lo publicado de 2024 a 2026.",
 i7="JOSPT, OMS, KNGF, NICE y Arabia Saudí.",
 i8="Anexo: guía, conocimiento y un reanálisis.",
-i9="Extracción derivada. Kaggle dataset coming soon.",
+i9="Extracción derivada. Dataset y notebook en Kaggle.",
 i10="91 referencias, estado de acceso y de enlace.",
 s1_num="QUÉ ES", s1_h="Una educación que cambia el concepto de dolor.", sec_what=what(),
 s2_num="CÓMO FUNCIONA", s2_h="La amenaza baja. El cuestionario no alcanza.", sec_how=how(),
@@ -269,7 +269,7 @@ s5_num="EVIDENCIA", s5_h="El comparador decide el resultado.", sec_evidence=evid
 s6_num="NOVEDAD", s6_h="Lo que se publicó entre 2024 y 2026.", sec_new=new(),
 s7_num="GUÍAS", s7_h="De grado A a sin recomendación.", sec_guides=guides(),
 s8_num="ARABIA SAUDÍ", s8_h="Un anexo, no el centro del método.", sec_saudi=saudi(),
-s9_num="DATOS", s9_h="La extracción está. Kaggle, todavía no.", sec_data=data(),
+s9_num="DATOS", s9_h="La extracción está aquí y en Kaggle.", sec_data=data(),
 s10_num="FUENTES", s10_h="Referencias y estado de los enlaces.", sec_sources=sources(),
 src_filter="Filtrar fuentes", src_all="Todas", src_full="Texto completo",
 src_oabs="Abiertas, resumen", src_abs="Solo resumen", src_count_label="fuentes visibles",

@@ -202,8 +202,8 @@ def saudi():
 def data():
     prim = F["primary"]
     return """
-<p class="lead">The Kaggle dataset is not published yet. <strong>Kaggle dataset coming soon</strong>. This page does not link to a Kaggle URL.</p>
-<p>What is in this repository is a derived extraction, prepared for that release. It is published, cited figures in three CSV files. It is not individual patient data. It does not copy third-party text or figures. The licence for these tables is CC BY 4.0. The generator code is MIT.</p>
+<p class="lead">The Kaggle release is public. Dataset: <a href="https://www.kaggle.com/datasets/vctorandrsgmezlpez/pne-trials-evidence-extraction">PNE Trials Evidence Extraction</a> (CC BY 4.0). Notebook: <a href="https://www.kaggle.com/code/vctorandrsgmezlpez/pne-trials-open-data-review">PNE Trials Open Data Review</a>, which downloads the O'Keeffe file from Zenodo when it runs and does not redistribute it.</p>
+<p>The same derived extraction is in this repository. It is published, cited figures in three CSV files. It is not individual patient data. It does not copy third-party text or figures. The licence for these tables is CC BY 4.0. The generator code is MIT.</p>
 <div class="grid-3">
  <div class="card"><span class="tag">23 rows</span><h3>Trials</h3><p><a href="data/pne_trials_extraction.csv">pne_trials_extraction.csv</a>. 39 columns. One row per report. Population recorded in the file: 20 patients, 2 student samples and 1 athlete sample.</p></div>
  <div class="card"><span class="tag">21 rows</span><h3>Effects</h3><p><a href="data/pne_trial_effects_long.csv">pne_trial_effects_long.csv</a>. 11 columns. Long format: one row per report, outcome and time point, when the abstract gave a number.</p></div>
@@ -259,7 +259,7 @@ i5="Added to exercise, and against active education.",
 i6="What was published from 2024 to 2026.",
 i7="JOSPT, WHO, KNGF, NICE and Saudi Arabia.",
 i8="Annex: guideline, knowledge and a reanalysis.",
-i9="Derived extraction. Kaggle dataset coming soon.",
+i9="Derived extraction. Dataset and notebook on Kaggle.",
 i10="91 references, access status and link status.",
 s1_num="WHAT IT IS", s1_h="An education that changes the concept of pain.", sec_what=what(),
 s2_num="HOW IT WORKS", s2_h="Threat falls. The quiz does not carry the outcome.", sec_how=how(),
@@ -269,7 +269,7 @@ s5_num="EVIDENCE", s5_h="The comparator decides the result.", sec_evidence=evide
 s6_num="WHAT IS NEW", s6_h="What was published from 2024 to 2026.", sec_new=new(),
 s7_num="GUIDELINES", s7_h="From grade A to no recommendation.", sec_guides=guides(),
 s8_num="SAUDI ARABIA", s8_h="An annex, not the centre of the method.", sec_saudi=saudi(),
-s9_num="DATA", s9_h="The extraction is here. Kaggle is not.", sec_data=data(),
+s9_num="DATA", s9_h="The extraction is here and on Kaggle.", sec_data=data(),
 s10_num="SOURCES", s10_h="References and link status.", sec_sources=sources(),
 src_filter="Filter sources", src_all="All", src_full="Full text",
 src_oabs="Open, abstract", src_abs="Abstract only", src_count_label="sources shown",

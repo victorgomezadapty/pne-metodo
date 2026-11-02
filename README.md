@@ -9,7 +9,7 @@ Arabia Saudí es un anexo, no el centro de la página.
 - `index.html`: portada con los dos idiomas.
 - `pne-es.html`: la página en español.
 - `pne-en.html`: la misma página en inglés.
-- `data/`: tres CSV derivados (extracción de ensayos, efectos en formato largo y estimadores para los gráficos). No incluyen datos individuales. El dataset de Kaggle todavía no está publicado.
+- `data/`: tres CSV derivados (extracción de ensayos, efectos en formato largo y estimadores para los gráficos). No incluyen datos individuales. El dataset está publicado en Kaggle (https://www.kaggle.com/datasets/vctorandrsgmezlpez/pne-trials-evidence-extraction) junto con el notebook (https://www.kaggle.com/code/vctorandrsgmezlpez/pne-trials-open-data-review).
 - `src/`: generador en Python 3, sin dependencias.
 
 Cada sección es una pestaña. El menú, el índice y los botones anterior y siguiente la abren, y la URL con `#seccion` enlaza directo. Sin JavaScript la página se ve completa. Respeta `prefers-reduced-motion`. La única dependencia externa es Google Fonts.
