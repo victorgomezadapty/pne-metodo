@@ -62,10 +62,11 @@ def check(path, lang):
                 i = text.find(bad) if bad in text else page.find(bad)
                 src = text if bad in text else page
                 raise SystemExit("%s: %s near %r" % (path, name, src[max(0, i-40):i+40]))
-    if "kaggle.com" in page.lower():
-        raise SystemExit("%s links to kaggle.com" % path)
-    if "Kaggle dataset coming soon" not in text:
-        raise SystemExit("%s missing Kaggle phrase" % path)
+    kag = set(re.findall(r'https://www\.kaggle\.com/[^"\s<]+', page))
+    if kag != {"https://www.kaggle.com/datasets/vctorandrsgmezlpez/pne-trials-evidence-extraction", "https://www.kaggle.com/code/vctorandrsgmezlpez/pne-trials-open-data-review"}:
+        raise SystemExit("%s unexpected Kaggle links %s" % (path, sorted(kag)))
+    if "coming soon" in text:
+        raise SystemExit("%s still says coming soon" % path)
     dois = re.findall(r'href="(https://doi\.org/[^"]+)"', page)
     bad = [d for d in dois if not DOI_RE.match(d)]
     if bad:
