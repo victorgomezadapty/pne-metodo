@@ -1,56 +1,56 @@
-# Educación en neurociencia del dolor
+# Pain neuroscience education
 
-Página estática sobre el método de la Pain Neuroscience Education: qué es, cómo funciona, cómo se hace, cómo se aplica con ejercicio, qué dice la evidencia según el comparador y cómo la nombran las guías. Español e inglés.
+A static page about the pain neuroscience education method: what it is, how it works, how it is done, how it is applied with exercise, what the evidence says according to the comparator, and how guidelines name it. Spanish and English.
 
-Arabia Saudí es un anexo, no el centro de la página.
+Saudi Arabia is an annex, not the centre of the page.
 
-## Contenido
+## Contents
 
-- `index.html`: portada con los dos idiomas.
-- `pne-es.html`: la página en español.
-- `pne-en.html`: la misma página en inglés.
-- `data/`: tres CSV derivados (extracción de ensayos, efectos en formato largo y estimadores para los gráficos). No incluyen datos individuales. El dataset está publicado en Kaggle (https://www.kaggle.com/datasets/vctorandrsgmezlpez/pne-trials-evidence-extraction) junto con el notebook (https://www.kaggle.com/code/vctorandrsgmezlpez/pne-trials-open-data-review).
-- `src/`: generador en Python 3, sin dependencias.
+- `index.html`: front page with both languages.
+- `pne-es.html`: the page in Spanish.
+- `pne-en.html`: the same page in English.
+- `data/`: three derived CSVs (trial extraction, effects in long format and estimates for the charts). They do not include individual data. The dataset is published on Kaggle (https://www.kaggle.com/datasets/vctorandrsgmezlpez/pne-trials-evidence-extraction) together with the notebook (https://www.kaggle.com/code/vctorandrsgmezlpez/pne-trials-open-data-review).
+- `src/`: a Python 3 generator, with no dependencies.
 
-Cada sección es una pestaña. El menú, el índice y los botones anterior y siguiente la abren, y la URL con `#seccion` enlaza directo. Sin JavaScript la página se ve completa. Respeta `prefers-reduced-motion`. La única dependencia externa es Google Fonts.
+Each section is a tab. The menu, the index and the previous and next buttons open it, and a URL with `#section` links directly to it. Without JavaScript the full page is visible. It respects `prefers-reduced-motion`. The only external dependency is Google Fonts.
 
-## Cómo reconstruir
+## How to rebuild
 
-Hace falta Python 3, sin paquetes externos. Funciona en Windows, macOS y Linux.
+Python 3 is required, with no external packages. It runs on Windows, macOS and Linux.
 
 ```bash
 cd src
 python3 build.py
 ```
 
-El script escribe `index.html`, `pne-es.html` y `pne-en.html` en la raíz del repositorio. Si falta una clave de la plantilla, se detiene y la nombra. También comprueba que cada DOI tenga forma válida y que el texto visible no lleve raya ni doble guion.
+The script writes `index.html`, `pne-es.html` and `pne-en.html` in the repository root. If a template key is missing, it stops and names that key. It also checks that each DOI has a valid form and that the visible text contains neither an em dash nor a double hyphen.
 
-- `src/template.html` con `src/es.py` y `src/en.py`: textos de cada idioma.
-- `src/facts.py`: cifras publicadas, compartidas por los dos idiomas.
-- `src/references.py`: las 91 referencias en APA 7.
-- `src/common.py`: paleta, CSS y JavaScript.
-- `src/index_template.html`: portada.
+- `src/template.html` with `src/es.py` and `src/en.py`: the text for each language.
+- `src/facts.py`: published figures, shared by both languages.
+- `src/references.py`: the 91 references in APA 7.
+- `src/common.py`: palette, CSS and JavaScript.
+- `src/index_template.html`: the front page.
 
-## Vista previa local
+## Local preview
 
-Desde la raíz del repositorio:
+From the repository root:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Abrir `http://127.0.0.1:8000/`.
+Open `http://127.0.0.1:8000/`.
 
-## Despliegue
+## Deployment
 
-Sitio estático. No hay paso de compilación en el servidor: se sirven los archivos de la raíz. No hay `vercel.json` ni variables secretas.
+Static site. There is no build step on the server: the files in the root are served. There is no `vercel.json` and there are no secret variables.
 
-## Licencia
+## Licence
 
-Textos, tablas y CSV derivados bajo CC BY 4.0. Código bajo MIT. Las fuentes citadas conservan sus derechos. El dataset de O'Keeffe no se redistribuye: solo se enlaza el registro Zenodo 6760585. Ver [LICENSE.md](LICENSE.md).
+Text, tables and derived CSVs are under CC BY 4.0. Code is under MIT. Cited sources keep their rights. The O'Keeffe dataset is not redistributed: only Zenodo record 6760585 is linked. See [LICENSE.md](LICENSE.md).
 
-## Aviso
+## Disclaimer
 
-Información educativa a partir de fuentes publicadas. No es consejo médico ni sustituye la valoración de un profesional de la salud.
+Educational information drawn from published sources. It is not medical advice and it does not replace assessment by a health professional.
 
-Autor: Víctor Andrés Gómez López, fisioterapeuta deportivo.
+Author: Víctor Andrés Gómez López, sports physiotherapist.
