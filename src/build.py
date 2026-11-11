@@ -113,12 +113,31 @@ def main():
         path = "../pne-%s.html" % L
         open(path, "w", encoding="utf-8", newline="\n").write(page)
         check(path, L)
-    idx = fill(open("index_template.html", encoding="utf-8").read(), dict(css=css("es"), js=JS))
+    idx = fill(open("index_template.html", encoding="utf-8").read(), dict(css=css("en"), js=JS))
     open("../index.html", "w", encoding="utf-8", newline="\n").write(idx)
     itext = visible(idx)
-    for bad in ("\u2013", "\u2014", "--"):
+    for bad, name in (("\u2013", "en dash"), ("\u2014", "em dash"), ("--", "double hyphen")):
         if bad in itext:
-            raise SystemExit("index dash %r" % bad)
+            raise SystemExit("index %s" % name)
+    head = idx.split("</head>", 1)[0]
+    if not head.startswith("<!doctype html>\n<html lang=\"en\""):
+        raise SystemExit("index lang")
+    if "Accept-Language" in idx or "document.cookie" in idx:
+        raise SystemExit("index negotiates language")
+    required = [
+        "<title>Pain neuroscience education · Víctor Andrés Gómez López</title>",
+        'property="og:locale" content="en_US"',
+        'property="og:title" content="Pain neuroscience education · Víctor Andrés Gómez López"',
+        'property="og:description" content="Method, evidence and application of pain neuroscience education, in English and in Spanish."',
+        'hreflang="x-default" href="index.html"',
+        'href="pne-en.html"',
+        'href="pne-es.html"',
+    ]
+    for needle in required:
+        if needle not in idx:
+            raise SystemExit("index missing %r" % needle)
+    if "<html lang=\"es\"" in idx or "Educación en neurociencia del dolor" in head:
+        raise SystemExit("index head is still Spanish")
     print("ok: index.html, pne-es.html, pne-en.html")
 
 if __name__ == "__main__":

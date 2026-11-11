@@ -1,12 +1,12 @@
 # Pain neuroscience education
 
-A static page about the pain neuroscience education method: what it is, how it works, how it is done, how it is applied with exercise, what the evidence says according to the comparator, and how guidelines name it. Spanish and English.
+A static page about the pain neuroscience education method: what it is, how it works, how it is done, how it is applied with exercise, what the evidence says according to the comparator, and how guidelines name it. English is the default at `/`. Spanish is the same report at `pne-es.html`. The root file does not switch language from Accept-Language or cookies.
 
 Saudi Arabia is an annex, not the centre of the page.
 
 ## Contents
 
-- `index.html`: front page with both languages.
+- `index.html`: English front page. It links to both editions. Spanish is one click away.
 - `pne-es.html`: the page in Spanish.
 - `pne-en.html`: the same page in English.
 - `data/`: three derived CSVs (trial extraction, effects in long format and estimates for the charts). They do not include individual data. The dataset is published on Kaggle (https://www.kaggle.com/datasets/vctorandrsgmezlpez/pne-trials-evidence-extraction) together with the notebook (https://www.kaggle.com/code/vctorandrsgmezlpez/pne-trials-open-data-review).
